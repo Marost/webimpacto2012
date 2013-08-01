@@ -1,0 +1,211 @@
+/*
+Menu Administracion Acordeon
+Por German Ferrari
+*/
+
+/* Reseteo */
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,
+pre, form, fieldset, table, th, tr, td {margin:0; padding:0;}
+img {border:0;}
+a {text-decoration:none;}
+ol, ul {list-style:none;}
+
+/* Elementos basicos */
+
+body {
+	background:#eff4f4;
+	color:#333;
+	font-family:"Lucida Grande", Arial, Verdana;
+	font-size:12px;
+	}
+a {color:#333;}
+p {margin-bottom:20px;}
+	
+/* Plantilla Basica */
+
+#pagina {
+	width:960px;
+	margin:20px auto;
+	overflow:hidden;
+	height:1%;
+	background:#FFF url(../../admin/css/images/bg-pagina.gif) repeat-y;	
+	border:1px solid #E7E7E7;
+	}
+	#menu, #contenido {
+		float:left;
+		display:inline;
+		}
+		#menu {
+			width:300px;
+			margin-bottom:20px;
+			border-right:1px solid #E7E7E7;
+			}
+		#contenido {
+			width:100%;
+			padding:15px 0 15px 0;
+			}
+	
+	/* Contenido de #menu */	
+	
+	#menu h3 {
+		font-family:"Myriad Pro", Verdana, Arial;
+		font-size:25px;
+		font-style:italic;
+		font-weight:bold;
+		padding:10px 20px;
+		letter-spacing:-1px;
+		color:#ebf1f1;
+		background:#333;
+		text-shadow:#000 0px -2px 0px;
+		}
+	#menu p {color:#666; padding:0px 20px; line-height:150%;}
+	#menu p a {color:#47595F; border-bottom:1px dotted #FFF;}
+	#menu p a:hover {color:#111; border-bottom:1px dotted #333;}
+		
+	#menu ul {
+		margin-bottom:20px;
+		}
+	#menu ul li {
+		font-family:"Lucida Grande", Verdana, Arial;
+		display:inline;
+		cursor:pointer;
+		}	
+	#menu ul li span {
+		padding:0px;
+		display:block;
+		background:#ebf1f1 url(../../admin/css/images/nav.gif) repeat-x 0 0;
+		border-bottom:1px solid #E7E7E7;
+		border-top:1px solid #FFF;
+		font-size:10px;
+		}	
+	#menu ul li span a {
+		font-family:Arial;
+		font-weight:bold;
+		font-size:18px;
+		letter-spacing:-1px;
+		background-position:15px 5px;
+		background-repeat:no-repeat;
+		color:#a0a9a9;		
+		text-shadow:#FFF 0px 1px 0px;
+		padding:10px 10px 15px 60px;
+		display:block;			
+		}
+		#menu ul li span a:hover {
+			color:#7b8585;
+			}
+		#menu ul li span.open a {
+			color:#333;
+			}
+	#menu a {
+		outline:none;
+		}
+			
+	#menu ul li span a#link-inicio {
+		background-image:url(../images/home_32.png);					
+		}
+	#menu ul li span a#link-info {
+		background-image:url(../images/info_32.png);					
+		}
+	#menu ul li span a#link-estadisticas {
+		background-image:url(../images/estadisticas_32.png);					
+		}
+	#menu ul li span a#link-blog {
+		background-image:url(../images/blog_32.png);					
+		}
+	#menu ul li span a#link-usuarios {
+		background-image:url(../images/users_32.png);					
+		}
+	#menu ul li span a#link-evaluacion {
+		background-image:url(../images/evaluacion_32.png);					
+		}
+	#menu ul li span a#link-proyectos {
+		background-image:url(../images/proyectos_32.png);					
+		}
+	#menu ul li span a#link-foro {
+		background-image:url(../images/foro_32.png);					
+		}
+	#menu ul li span a#link-consulta {
+		background-image:url(../images/consulta_32.png);					
+		}
+	#menu ul li span a#link-confidencial {
+		background-image:url(../images/confidencial_32.png);					
+		}
+	#menu ul li span a#link-sugerencia {
+		background-image:url(../images/sugerencia_32.png);					
+		}
+		
+	#menu ul li ul{
+		margin-bottom:0px;
+		}	
+	#menu ul li ul li {
+		display:inline;
+		font-weight:normal;
+		font-size:11px;
+		}
+		#menu ul li ul li a {
+			display:block;
+			color:#444;
+			padding:11px 10px 11px 60px;
+			background-position:25px 11px;
+			background-repeat:no-repeat;
+			background-color:#f1f5f5;
+			border-bottom:1px solid #E7E7E7;
+			border-top:1px solid #FFF;
+			}
+		#menu ul li ul li a:hover {
+			color:#000;
+			}
+		
+		#menu ul li ul li a.add {
+			background-image:url(../images/add_16.png);
+			}
+		#menu ul li ul li a.list {
+			background-image:url(../images/arrow_right_16.png);
+			}
+		#menu ul li ul li a.bullet {
+			background-image:url(../images/bullet_blue.png);
+			}
+		#menu ul li ul li a.contacto {
+			background-image:url(../images/contacto_16.png);
+			}
+		#menu ul li ul li a.presupuesto {
+			background-image:url(../images/presupuesto_16.png);
+			}
+	
+	/* Contenido de #contenido */			
+		
+		#contenido h2 {
+			font-family:"Myriad Pro", Verdana, Arial;
+			font-size:50px;
+			letter-spacing:-3px;
+			font-weight:bold;
+			color:#555;
+			margin-bottom:20px;
+			padding-bottom:10px;
+			border-bottom:5px solid #ebf1f1;
+			}
+		#contenido p {
+			font-size:14px;
+			}
+		
+		#contenido_total ul li{
+			list-style-position:inside;
+			list-style-type:circle;
+		}
+
+
+.texto_blanco{
+	color:#FFF;
+}
+
+.texto_negro16-MyriadPro{
+	color:#000;
+	font-family:"Myriad Pro", Verdana, Arial;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#datos-usuario{
+	width:285px;
+	padding:10px 0 10px 15px;
+}

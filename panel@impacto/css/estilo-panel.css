@@ -1,0 +1,56 @@
+/* Desarrollo: Marco A. López Sotomayor -- DIARIO16 */
+
+body, p, h1, h2, h3, h4, h5, h6{ margin:0; padding:0;
+	font-family:Tahoma, Geneva, sans-serif;}
+body{ font-size:12px; }
+p{margin:0;padding:0;font-size:12px;}
+a{text-decoration:none;}
+img a{ border:none;}
+#contenedor, #cabecera, #cuerpo{width:100%;}
+.interior{width:990px;margin:0 auto;}
+#cabecera{ height:47px; background:url(../images/fondo-cabecera.jpg);}
+#cuerpo{padding:10px 0;}
+#cuerpo .interior #panel-izq{ width:160px; float:left;}
+#cuerpo .interior #panel-der{ width:830px; float:left;}
+.logo-superior{ width:300px; height:40px; float:left; padding:3px 0 0 0;}
+.usuario-sesion{ width:400px; float:right; text-align:right; padding:15px 0;}
+.ultimos-comentarios{ width:828px; border:1px #999 solid; margin:10px 0; }
+.ultimos-comentarios .cabecera-ultimos-comentarios p{ height:20px;
+	background:url(../images/fnd-barra.jpg) repeat-x; padding:4px 0 0 15px;
+	font-weight:normal; font-size:14px; }
+.ultimos-comentarios .cuerpo-ultimos-comentarios{ height:150px;}
+
+/* MENU DESPLEGABLE */
+#nav { padding:0; margin:0; font-family:Arial, Helvetica, sans-serif; background:#fff;}
+#nav dt.items b {
+	width:105px; height:20px; padding:5px 20px; display:block;  font-weight:normal; 
+	font-size:14px; font-family:Tahoma, Geneva, sans-serif; color:#000;  cursor:pointer;}
+#nav p#principal b a{
+	width:105px; height:20px; padding:5px 20px; display:block; font-weight:normal; 
+	font-size:14px; font-family:Tahoma, Geneva, sans-serif; color:#000; cursor:pointer;
+	background:url(../images/btn-item1.png) left top no-repeat; text-decoration:none;}
+#nav dt.items {background:url(../images/btn-item2.png) left top no-repeat;}
+#nav div.espacio{ display:block; width:145px; height:11px; cursor:default;
+	background:url(../images/separador.png) no-repeat; margin:5px 0; padding:0; }
+#nav dd { padding:0; margin:0;}
+#nav dd ul { width:143px; padding:0; margin:0; list-style:none; border:1px solid #CCC;
+	border-top:none; }
+#nav dd ul li {padding:5px 0 5px 5px;}
+#nav dd ul li a {font-size:12px; color:#000; text-decoration:none;}
+
+/* LIMPIAR OBJETOS FLOTANTES */
+.limpiar:after { content:""; display:block; height:0; 
+    clear:both; visibility:hidden;}
+.limpiar{display:inline-block;}
+.limpiar{display:block;}
+* html .limpiar{height:1px;}
+
+/* LISTA CHECKBOX */
+.item_checkbox{ width:200px; float:left; padding:5px; font-size:12px;}
+.item_checkbox:hover{ background-color:#FFFFFF;}
+
+#form_tags_noticia{ width:90%; float:left;}
+#resultado{ width:100%; float:left;}
+
+.player{ width:400px; height:260px; float:left; cursor:pointer;}
+.player img{ margin-left:260px; margin-top:145px; }

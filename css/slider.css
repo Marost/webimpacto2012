@@ -1,0 +1,4 @@
+#slider_superior{ width:990px; height:230px;  position:relative; clear:both; }
+.slides_container{ width:990px; display:none; }
+.slides_container div{ width:990px; height:230px; display:block; }
+#slider_superior ul.pagination{ visibility:hidden;}

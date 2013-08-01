@@ -1,0 +1,42 @@
+body{
+	margin:0;
+	padding:0;
+	background:url(../imagenes/intro-fondo.jpg) top center;
+}
+
+#contenedor{
+	height:670px;
+	margin:0 auto;
+	position:relative;
+	width:1000px;
+}
+
+#contenedor a#facebook{
+	display:block;
+	height:41px;
+	left: 670px;
+	position:absolute;
+	text-indent:-1000em;
+	top: 23px;
+	width:195px;
+}
+
+#contenedor a#edicion{
+	display:block;
+	height:95px;
+	left: 547px;
+	position:absolute;
+	text-indent:-1000em;
+	top: 360px;
+	width:185px;
+}
+
+#contenedor a#web{
+	display:block;
+	height:55px;
+	left: 546px;
+	position:absolute;
+	text-indent:-1000em;
+	top: 479px;
+	width:215px;
+}

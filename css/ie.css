@@ -1,0 +1,10 @@
+/* PIE */
+.sf-menu{behavior: url(css/PIE.htc);}
+.sf-menu li{behavior: url(css/PIE.htc);}
+.sf-menu li:hover{behavior: url(css/PIE.htc);}
+#slide_superior{behavior: url(css/PIE.htc);}
+.logos_enlaces_items{behavior: url(css/PIE.htc);}
+#bienvenida{behavior: url(css/PIE.htc);}
+
+/* IE CSS3 */
+/*.artclientes_cabecera h3{behavior: url(css/ie-css3.htc);}*/

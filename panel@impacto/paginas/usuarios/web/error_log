@@ -1,0 +1,36 @@
+[07-Sep-2011 20:21:22] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 13
+[07-Sep-2011 20:21:22] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 86
+[07-Sep-2011 20:22:32] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 12
+[07-Sep-2011 20:22:32] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 85
+[15-May-2012 11:51:06] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 11
+[15-May-2012 11:51:06] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 12
+[15-May-2012 11:51:06] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 19
+[15-May-2012 11:51:06] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 23
+[15-May-2012 11:51:06] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 24
+[15-May-2012 11:51:06] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 27
+[15-May-2012 11:51:06] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 28
+[15-May-2012 11:51:06] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 97
+[16-May-2012 20:28:00] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 11
+[16-May-2012 20:28:00] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 12
+[16-May-2012 20:28:00] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 19
+[16-May-2012 20:28:00] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 23
+[16-May-2012 20:28:00] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 24
+[16-May-2012 20:28:00] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 27
+[16-May-2012 20:28:00] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 28
+[16-May-2012 20:28:00] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 97
+[04-Jun-2012 17:20:14] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 11
+[04-Jun-2012 17:20:14] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 12
+[04-Jun-2012 17:20:14] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 19
+[04-Jun-2012 17:20:14] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 23
+[04-Jun-2012 17:20:14] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 24
+[04-Jun-2012 17:20:14] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 27
+[04-Jun-2012 17:20:14] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 28
+[04-Jun-2012 17:20:14] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 97
+[17-Jul-2013 21:12:37 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 11
+[17-Jul-2013 21:12:37 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 12
+[17-Jul-2013 21:12:37 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 19
+[17-Jul-2013 21:12:37 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 23
+[17-Jul-2013 21:12:37 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 24
+[17-Jul-2013 21:12:37 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 27
+[17-Jul-2013 21:12:37 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 28
+[17-Jul-2013 21:12:37 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/impactoe/public_html/panel@impacto/paginas/usuarios/web/listar.php on line 97
