@@ -1,8 +1,0 @@
-[08-Apr-2013 20:59:24 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111) in /home/impactoe/public_html/panel@impacto/conexion/conexion.php on line 6
-[08-Apr-2013 20:59:24 UTC] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/impactoe/public_html/panel@impacto/conexion/conexion.php on line 7
-[08-Apr-2013 20:59:24 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/impactoe/public_html/panel@impacto/conexion/conexion.php on line 38
-[08-Apr-2013 20:59:24 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/impactoe/public_html/panel@impacto/conexion/conexion.php on line 39
-[08-Apr-2013 21:00:00 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111) in /home/impactoe/public_html/panel@impacto/conexion/conexion.php on line 6
-[08-Apr-2013 21:00:00 UTC] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/impactoe/public_html/panel@impacto/conexion/conexion.php on line 7
-[08-Apr-2013 21:00:00 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /home/impactoe/public_html/panel@impacto/conexion/conexion.php on line 38
-[08-Apr-2013 21:00:00 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/impactoe/public_html/panel@impacto/conexion/conexion.php on line 39
