@@ -164,12 +164,21 @@ filter: progid: DXImageTransform.Microsoft.Shadow(strength = 3, direction = 135,
 	text-align: center;
 }
 
+#section_sidebar .scsdb_item ul{
+	padding: 0px 0 0 20px !important;
+	float: left !important;
+}
+
 #section_sidebar .scsdb_item ul li{
 	display: inline-block;
 }
 
 #section_sidebar .scsdb_item ul li a.en{ background-color: #ff5a1a; }
 #section_sidebar .scsdb_item ul li a.fr{ background-color: #6bc729; }
+#section_sidebar .scsdb_item ul li a.pr{ background-color: #FFF414; color: #000; }
+#section_sidebar .scsdb_item ul li a.it{ background-color: #0CAB0D; }
+#section_sidebar .scsdb_item ul li a.ch{ background-color: #C7310E; }
+#section_sidebar .scsdb_item ul li a.al{ background-color: #FFE000; color: #000; }
 
 /**/
 #pgaleria{ width:290px; float:left; overflow:hidden;}

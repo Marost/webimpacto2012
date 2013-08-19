@@ -401,10 +401,10 @@ jgalweb(document).ready(function(){
                 <ul>
                     <li><a class="en" href="/revista_en/<?php echo $edimpresa_en_numero; ?>/index.html" target="_blank">ENGLISH</a></li>
                     <li><a class="fr" href="/revista_fr/<?php echo $edimpresa_fr_numero; ?>/index.html" target="_blank">FRANCAIS</a></li>
-                    <li><a class="en" href="javascript:;" target="_blank">PORTUGUÊS</a></li>
-                    <li><a class="en" href="javascript:;" target="_blank">ITALIANA</a></li>
-                    <li><a class="en" href="javascript:;" target="_blank">中國</a></li>
-                    <li><a class="en" href="javascript:;" target="_blank">ALEMAN</a></li>
+                    <li><a class="pr" href="javascript:;" target="_blank">PORTUGUÊS</a></li>
+                    <li><a class="it" href="javascript:;" target="_blank">ITALIANA</a></li>
+                    <li><a class="ch" href="javascript:;" target="_blank">中國</a></li>
+                    <li><a class="al" href="javascript:;" target="_blank">ALEMAN</a></li>
                 </ul>
                 
             </div><!-- FIN SECTION SIDEBAR ITEM -->
