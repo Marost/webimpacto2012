@@ -156,7 +156,7 @@ filter: progid: DXImageTransform.Microsoft.Shadow(strength = 3, direction = 135,
 #section_sidebar .scsdb_item ul li a{
 	float: left;
 	padding: 7px 15px;
-	margin: 5px 45px;
+	margin: 5px 0;
 	color: #fff;
 	font-weight: bold;
 	display: inline-block;
@@ -165,12 +165,15 @@ filter: progid: DXImageTransform.Microsoft.Shadow(strength = 3, direction = 135,
 }
 
 #section_sidebar .scsdb_item ul{
-	padding: 0px 0 0 20px !important;
+	padding: 0px 0 0 0 !important;
 	float: left !important;
+	width: 100%;
+	text-align: center;
 }
 
 #section_sidebar .scsdb_item ul li{
 	display: inline-block;
+	width: 130px;
 }
 
 #section_sidebar .scsdb_item ul li a.en{ background-color: #ff5a1a; }

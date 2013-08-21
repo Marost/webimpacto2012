@@ -82,6 +82,13 @@ $edimpresa_fr_numero=$fila_edimpresa_fr["titulo"];
 $edimpresa_fr_nombre=$fila_edimpresa_fr["nombre_edicion"];
 $edimpresa_fr_imagen=$fila_edimpresa_fr["imagen"];
 
+//EDICION IMPRESA ITALIANO
+$rst_edimpresa_it=mysql_query("SELECT * FROM iev_edicion_it WHERE fecha_publicacion<='$fechaActual' ORDER BY id DESC", $conexion);
+$fila_edimpresa_it=mysql_fetch_array($rst_edimpresa_it);
+$edimpresa_it_numero=$fila_edimpresa_it["titulo"];
+$edimpresa_it_nombre=$fila_edimpresa_it["nombre_edicion"];
+$edimpresa_it_imagen=$fila_edimpresa_it["imagen"];
+
 ?>
 <!DOCTYPE HTML>
 <html lang="es">
@@ -401,8 +408,8 @@ jgalweb(document).ready(function(){
                 <ul>
                     <li><a class="en" href="/revista_en/<?php echo $edimpresa_en_numero; ?>/index.html" target="_blank">ENGLISH</a></li>
                     <li><a class="fr" href="/revista_fr/<?php echo $edimpresa_fr_numero; ?>/index.html" target="_blank">FRANCAIS</a></li>
-                    <li><a class="pr" href="javascript:;" target="_blank">PORTUGUÊS</a></li>
-                    <li><a class="it" href="javascript:;" target="_blank">ITALIANA</a></li>
+                    <li><a class="it" href="/revista_it/<?php echo $edimpresa_it_numero; ?>/index.html" target="_blank">ITALIANA</a></li>
+                    <li><a class="pr" href="javascript:;" target="_blank">PORTUGUÊS</a></li>                    
                     <li><a class="ch" href="javascript:;" target="_blank">中國</a></li>
                     <li><a class="al" href="javascript:;" target="_blank">ALEMAN</a></li>
                 </ul>
@@ -421,7 +428,11 @@ jgalweb(document).ready(function(){
 
                 <div class="scsdbi_cabecera lang_fr">
                     <a href="francais_edition">
-                    EDITIONS PRECEDENTS</a></div>
+                    ÉDITIONS PRÉCÉDENTES</a></div>
+
+                <div class="scsdbi_cabecera lang_en">
+                    <a href="edizione_italiana">
+                    EDIZIONI PRECEDENTI</a></div>
                 
             </div><!-- FIN SECTION SIDEBAR ITEM -->
             
