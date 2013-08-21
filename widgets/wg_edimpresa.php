@@ -11,7 +11,7 @@ $edimpresa_imagen=$fila_edimpresa["imagen"];
         <div id="pedmes_cabecera"><h2 class="texto_bold texto_cursiva">Edición del mes</h2></div>
         <div id="pedmes_contenido" style="text-align:center;">
         <a href="/revista/<?php echo $edimpresa_numero; ?>/index.html" target="_blank">
-        	<img src="imagenes/revista/<?php echo $edimpresa_imagen; ?>" width="239" height="320" alt="Portada" title="<?php echo $edimpresa_nombre; ?>"></a>
+        	<img src="imagenes/revista/<?php echo $edimpresa_imagen; ?>" width="239" alt="Portada" title="<?php echo $edimpresa_nombre; ?>"></a>
         <a href="edicion_anterior" target="_blank">
        	  <img class="padding_t10" src="/imagenes/edimpreso_anterior.jpg" alt="Edición Anterior" width="290" height="22" border="0" /></a></div>
     </div><!-- PANEL EDICION MES -->
