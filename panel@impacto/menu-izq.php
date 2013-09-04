@@ -93,6 +93,9 @@
       <li>
         <a href="<?php echo $fila_empresa["web"]."".$carpeta_admin; ?>/paginas/portadas/noticias_it/listar.php">
           Italiano</a></li>
+      <li>
+        <a href="<?php echo $fila_empresa["web"]."".$carpeta_admin; ?>/paginas/portadas/noticias_pr/listar.php">
+          Portugues</a></li>
     </ul>
   </dd>
   <dt class="items"><b>Mensajes</b></dt>
