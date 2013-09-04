@@ -89,6 +89,13 @@ $edimpresa_it_numero=$fila_edimpresa_it["titulo"];
 $edimpresa_it_nombre=$fila_edimpresa_it["nombre_edicion"];
 $edimpresa_it_imagen=$fila_edimpresa_it["imagen"];
 
+//EDICION IMPRESA PORTUGUES
+$rst_edimpresa_pr=mysql_query("SELECT * FROM iev_edicion_pr WHERE fecha_publicacion<='$fechaActual' ORDER BY id DESC", $conexion);
+$fila_edimpresa_pr=mysql_fetch_array($rst_edimpresa_pr);
+$edimpresa_pr_numero=$fila_edimpresa_pr["titulo"];
+$edimpresa_pr_nombre=$fila_edimpresa_pr["nombre_edicion"];
+$edimpresa_pr_imagen=$fila_edimpresa_pr["imagen"];
+
 ?>
 <!DOCTYPE HTML>
 <html lang="es">
@@ -409,7 +416,7 @@ jgalweb(document).ready(function(){
                     <li><a class="en" href="/revista_en/<?php echo $edimpresa_en_numero; ?>/index.html" target="_blank">ENGLISH</a></li>
                     <li><a class="fr" href="/revista_fr/<?php echo $edimpresa_fr_numero; ?>/index.html" target="_blank">FRANCAIS</a></li>
                     <li><a class="it" href="/revista_it/<?php echo $edimpresa_it_numero; ?>/index.html" target="_blank">ITALIANA</a></li>
-                    <li><a class="pr" href="javascript:;" target="_blank">PORTUGUÊS</a></li>                    
+                    <li><a class="pr" href="/revista_pr/<?php echo $edimpresa_pr_numero; ?>/index.html" target="_blank">PORTUGUÊS</a></li>                    
                     <li><a class="ch" href="javascript:;" target="_blank">中國</a></li>
                     <li><a class="al" href="javascript:;" target="_blank">ALEMAN</a></li>
                 </ul>
@@ -433,6 +440,10 @@ jgalweb(document).ready(function(){
                 <div class="scsdbi_cabecera lang_en">
                     <a href="edizione_italiana">
                     EDIZIONI PRECEDENTI</a></div>
+
+                <div class="scsdbi_cabecera lang_en">
+                    <a href="portugues_edicao">
+                    EDIÇÕES ANTERIORES</a></div>                
                 
             </div><!-- FIN SECTION SIDEBAR ITEM -->
             

@@ -8,6 +8,8 @@ RewriteRule ^edicion_anterior$									/ed_anterior.php
 RewriteRule ^english_edition$									/ed_anterior_en.php
 RewriteRule ^francais_edition$									/ed_anterior_fr.php
 RewriteRule ^edizione_italiana$									/ed_anterior_it.php
+RewriteRule ^edizione_italiana$									/ed_anterior_it.php
+RewriteRule ^portugues_edicao$									/ed_anterior_pr.php
 RewriteRule ^editorial$											/columnista.php
 RewriteRule ^editorial/([0-9]*)-(.*)$							/columna.php?idcolumna=$1&urlcolumna=$2
 RewriteRule ^login$	 											/login.php
