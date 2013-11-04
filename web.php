@@ -105,6 +105,19 @@ $edimpresa_pr_imagen=$fila_edimpresa_pr["imagen"];
 <link href="css/estilos_v312.css" rel="stylesheet" type="text/css">
 <link href="css/normalize.css" rel="stylesheet" type="text/css">
 
+<!-- CONTADOR -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.countdown.js"></script>
+<script>
+var jCont = jQuery.noConflict();
+jCont(document).ready(function(){
+    jCont('#counter').countdown({
+      image: 'imagenes/digits.png',
+      startTime: '01:12:12:00'
+    });
+});
+</script>
+
 <!-- SLIDER -->
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript" src="libs/bxslider/jquery.bxSlider.min.js"></script><script type="text/javascript">
@@ -185,6 +198,8 @@ jgalweb(document).ready(function(){
 </head>
 
 <body>
+
+<div id="counter"></div>
 
 <header class="limpiar">
 
