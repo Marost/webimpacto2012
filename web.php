@@ -106,14 +106,34 @@ $edimpresa_pr_imagen=$fila_edimpresa_pr["imagen"];
 <link href="css/normalize.css" rel="stylesheet" type="text/css">
 
 <!-- CONTADOR -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript"></script>
-<script src="js/jquery.countdown.js"></script>
-<script>
-var jCont = jQuery.noConflict();
-jCont(document).ready(function(){
-    jCont('#counter').countdown({
-      image: 'imagenes/digits.png',
-      startTime: '01:12:12:00'
+<link rel="stylesheet" href="libs/jbmarket/css/jbclock.css" type="text/css" media="all" />
+<script type="text/javascript" src="libs/jbmarket/js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="libs/jbmarket/js/jbclock.js"></script>
+<?php
+    /* Set start and end dates here */
+    $startDate  = strtotime("01 January 2013 12:00:00");
+    $endDate    = strtotime("07 November 2013 21:00:00");
+    /* /Set start and end dates here */
+?>
+<script type="text/javascript">
+var jClock = jQuery.noConflict();
+jClock(document).ready(function(){
+    JBCountDown({
+        secondsColor : "#ffdc50",
+        secondsGlow  : "none",
+        
+        minutesColor : "#9cdb7d",
+        minutesGlow  : "none",
+        
+        hoursColor   : "#378cff",
+        hoursGlow    : "none",
+        
+        daysColor    : "#ff6565",
+        daysGlow     : "none",
+        
+        startDate   : "<?php echo $startDate; ?>",
+        endDate     : "<?php echo $endDate; ?>",
+        now         : "<?php echo strtotime('now'); ?>"
     });
 });
 </script>
@@ -199,7 +219,38 @@ jgalweb(document).ready(function(){
 
 <body>
 
-<div id="counter"></div>
+<div class="clock">
+                
+    <div class="clock_days">
+        <canvas id="canvas_days" height="190px" width="190px" id="canvas_days"></canvas>
+        <div class="text">
+            <p class="val">0</p>
+            <p class="type_days">Dias</p>
+        </div>
+    </div>
+    <div class="clock_hours">
+        <canvas height="190px" width="190px" id="canvas_hours"></canvas>
+        <div class="text">
+            <p class="val">0</p>
+            <p class="type_hours">Horas</p>
+        </div>
+    </div>
+    <div class="clock_minutes">
+        <canvas height="190px" width="190px" id="canvas_minutes"></canvas>
+        <div class="text">
+            <p class="val">0</p>
+            <p class="type_minutes">Minutos</p>
+        </div>
+    </div>
+    <div class="clock_seconds">
+        <canvas height="190px" width="190px" id="canvas_seconds"></canvas>
+        <div class="text">
+            <p class="val">0</p>
+            <p class="type_seconds">Segundos</p>
+        </div>
+    </div>
+    
+</div><!--/clock -->
 
 <header class="limpiar">
 
